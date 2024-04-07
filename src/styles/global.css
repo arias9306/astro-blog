@@ -1,6 +1,15 @@
 html {
   font-family: sans-serif;
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
+}
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
 
 body {
